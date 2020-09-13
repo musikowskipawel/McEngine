@@ -509,8 +509,8 @@ void ConsoleBox::addSuggestion(UString text, UString command)
 
 	const int vsize = m_vSuggestionButtons.size() + 1;
 	const int bottomAdd = 3 * dpiScale;
-	const int buttonheight = 22 * dpiScale;
-	const int addheight = (17 + 8) * dpiScale;
+	const int buttonheight = 27 * dpiScale;
+	const int addheight = (17 + 10) * dpiScale;
 
 	// create button and add it
 	CBaseUIButton *button = new CBaseUIButton(3 * dpiScale, (vsize - 1)*buttonheight + 2 * dpiScale, 100, addheight, command, text);
